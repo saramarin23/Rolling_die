@@ -22,3 +22,17 @@ body {
   display: flex;
   justify-content: center;
 }
+
+@media all and (max-width: 768px) {
+  .dice {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+  }
+  .image {
+    width: 150px;
+    height: 150px;
+  }
+}

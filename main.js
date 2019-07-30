@@ -7,17 +7,17 @@ function rollIt() {
   //debugger;
   const randomNumber = getRandomNumber();
   if (randomNumber === 1) {
-    dice_container.innerHTML = "<img src='./images/one.png'>";
+    dice_container.innerHTML = "<img src='./images/one.png' class='image'>";
   } else if (randomNumber === 2) {
-    dice_container.innerHTML = "<img src='./images/two.png'>";
+    dice_container.innerHTML = "<img src='./images/two.png' class='image'>";
   } else if (randomNumber === 3) {
-    dice_container.innerHTML = "<img src='./images/three.png'>";
+    dice_container.innerHTML = "<img src='./images/three.png' class='image'>";
   } else if (randomNumber === 4) {
-    dice_container.innerHTML = "<img src='./images/four.png'>";
+    dice_container.innerHTML = "<img src='./images/four.png' class='image'>";
   } else if (randomNumber === 5) {
-    dice_container.innerHTML = "<img src='./images/five.png'>";
+    dice_container.innerHTML = "<img src='./images/five.png' class='image'>";
   } else if (randomNumber === 6) {
-    dice_container.innerHTML = "<img src='./images/six.png'>";
+    dice_container.innerHTML = "<img src='./images/six.png' class='image'>";
   } else {
     dice_container.innerHTML = "¿Qué ha pachao?";
   }
